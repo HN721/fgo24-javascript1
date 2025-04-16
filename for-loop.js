@@ -29,3 +29,10 @@ while(y<5){
   console.log(row)
   y++}
   
+let x = 0;
+let tempp = "";
+while (x < 5) {
+  tempp += "*";
+  console.log(tempp);
+  x++;
+}
