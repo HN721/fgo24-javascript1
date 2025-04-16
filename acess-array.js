@@ -6,7 +6,7 @@ const data = [
       1,
       2,
       {
-        string: ["Hosea Ganteng", { value: "hello" }],
+        string: ["Hosea Nainggolan", { value: "hello" }],
       },
     ],
   ],
