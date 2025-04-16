@@ -1,0 +1,12 @@
+// // const PI = 3.14;
+// // console.log(PI);
+// // const num = (1 * (2 + 5)) / 10;
+// // console.log(num);
+// // let studentName = ``;
+// // console.log(studentName);
+// // studentName = "John Doe";
+// // console.log(studentName);
+// const array = [1, "hosea", true];
+// console.log(array);
+const data = ["hallo", "world"];
+console.log(data);

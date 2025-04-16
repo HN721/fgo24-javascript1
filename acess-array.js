@@ -1,12 +1,17 @@
 const data = [
   [
-    1,
+    0,
     [
-      "Hosea",
       1,
       2,
+      3,
       {
-        string: ["Hosea Nainggolan", { value: "hello" }],
+        string: [
+          1,
+          {
+            value: "hallo",
+          },
+        ],
       },
     ],
   ],
