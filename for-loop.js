@@ -18,14 +18,14 @@
 //   }
 //   console.log("end of loop");
 // }
-let x = 5;
-while (x > 0) {
-  let tempp = "";
-  let y = 0;
-  while (y < x) {
-    tempp += "*";
-    y++;
+let y = 0
+while(y<5){
+  let x = 0 
+  let row = ""
+  while(x<5-y){
+    row += "* "
+    x++
   }
-  console.log(tempp);
-  x--;
-}
+  console.log(row)
+  y++}
+  
