@@ -67,7 +67,9 @@ for (let i = 0; i < transaksi.length; i++) {
     highTransaction = transaksi[i];
   }
 }
-console.log(highTransaction);
+console.log(
+  `Harga tertinggi adalah ${highTransaction.harga} dengan barang ${highTransaction.nama}`
+);
 let lowestDate = highTransaction;
 
 for (let i = 0; i < transaksi.length; i++) {
@@ -75,7 +77,9 @@ for (let i = 0; i < transaksi.length; i++) {
     lowestDate = transaksi[i];
   }
 }
-console.log(lowestDate);
+console.log(
+  `Tanggal terlama adalah ${lowestDate.tanggal} dengan barang ${lowestDate.nama}`
+);
 
 let total = 0;
 for (let i = 0; i < transaksi.length; i++) {
@@ -83,4 +87,4 @@ for (let i = 0; i < transaksi.length; i++) {
 }
 const sum = total / transaksi.length;
 
-console.log(sum);
+console.log(`Rata-rata harga barang adalah ${sum}`);
